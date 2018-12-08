@@ -1,4 +1,4 @@
-# rainbowsix-api-node
+# rainbowsix-siege-api
 API for Rainbow Six Siege stats and player. Data extracted from r6stats.com
 
 Using Node.js, Express, r6stats.com
