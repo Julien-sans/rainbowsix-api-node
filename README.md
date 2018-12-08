@@ -15,6 +15,8 @@ const statsRouter = require('./routes/stats');
 
 const R6 = new RainbowSixApi();
 
+// userID: https://r6stats.com/stats/${userId}
+
 app.get('/api/stats/:userId', (req, res) => {
     const userId = req.params.userId;
     try{
