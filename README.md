@@ -1,5 +1,7 @@
 # rainbowsix-api-node
-API Node.js for Rainbow Six Siege stats and player. Data extracted from r6stats.com
+API for Rainbow Six Siege stats and player. Data extracted from r6stats.com
+
+Using Node.js, Express, r6stats.com
 
 ## Example:
 ```javascript
