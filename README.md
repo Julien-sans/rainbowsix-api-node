@@ -1,33 +1,45 @@
 # rainbowsix-api-node
-Async JavaScript wrapper for Rainbow Six Siege stats and player profiles using ES6 promises
+API Node.js for Rainbow Six Siege stats and player. Data extracted from r6stats.com
 
 ## Example:
 ```javascript
-const RainbowSixApi = require('rainbowsix-api-node');
+const RainbowSixApi = require('rainbowsix-siege-api');
+const express = require('express');
+const app = express();
+
+const port = 5000;
+const statsRouter = require('./routes/stats');
+
 const R6 = new RainbowSixApi();
 
-let username = '<username here>';
-let platform = '<platforms : uplay, xone, ps4>';
-
-//Get stats on the user on that platform
-R6.stats(username, platform, /*optional true or false if you want operator details or not*/).then(response => {
-    console.log(response);
-}).catch(error => {
-    console.error(error)
+app.get('/api/stats/:userId', (req, res) => {
+    const userId = req.params.userId;
+    try{
+        R6.stats(userId).then(response => {
+            res.send(response);
+        }).catch(error => {
+            console.error(error)
+        });
+    }catch(error){
+        console.error(error);
+    };
 });
 
-//For getting details about a user on R6 depending on platform
-R6.profile(username, platform).then(response => {
-    console.log(response);
-}).catch(error => {
-    console.error(error);
+app.use('/api/stats', statsRouter)
+
+app.listen(port, (err) => {
+  if (err) {
+    throw new Error('Erreur')
+  }
+  console.log(`Server is listening on port ${port}`);
 });
+
 ```
 
 ## Installation
+
 ```
-npm i rainbowsix-api-node --save
+npm i rainbowsix-siege-api --save
 ```
 
 Using <https://r6stats.com/> for the API and stats
-

@@ -1,15 +1,15 @@
 {
-  "name": "rainbowsix-api-node",
-  "version": "0.0.1",
-  "description": "Async JavaScript wrapper for Rainbow Six Siege stats and player profiles using ES6 promises",
+  "name": "rainbowsix-siege-api",
+  "version": "1.0.0",
+  "description": "API Node.js for Rainbow Six Siege stats and player. Data extracted from r6stats.com",
   "main": "main.js",
-  "author": "27therealone <27therealone@gmail.com>",
+  "author": "Julien-sans <julien.sans1@gmail.com>",
   "license": "MIT",
   "homepage": "https://github.com/27therealone/rainbowsix-api-node",
-  "keywords": ["rainbowsix", "rainbowsixsiege", "node-js", "async", "promise-api"],
+  "keywords": ["rainbowsix", "api", "rainbow", "rainbowsixsiege", "node-js", "async", "promise-api", "express"],
   "repository": {
     "type": "git",
-    "url": "https://github.com/27therealone/rainbowsix-api-node"
+    "url": "https://github.com/Julien-sans/rainbowsix-api-node"
   },
   "dependencies": {
     "request": "^2.79.0"
