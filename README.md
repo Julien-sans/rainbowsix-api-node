@@ -3,6 +3,7 @@ API Node.js for Rainbow Six Siege stats and player. Data extracted from r6stats.
 
 ## Example:
 ```javascript
+
 const RainbowSixApi = require('rainbowsix-siege-api');
 const express = require('express');
 const app = express();
@@ -33,6 +34,20 @@ app.listen(port, (err) => {
   }
   console.log(`Server is listening on port ${port}`);
 });
+
+```
+
+
+```javascript
+
+const express = require('express');
+
+const router = express.Router();
+
+router.get('/', (req, res) => res.json())
+
+module.exports = router;
+
 
 ```
 
