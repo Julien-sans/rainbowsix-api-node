@@ -9,7 +9,7 @@
   "keywords": ["rainbowsix", "api", "rainbow", "rainbowsixsiege", "node-js", "async", "promise-api", "express"],
   "repository": {
     "type": "git",
-    "url": "https://github.com/Julien-sans/rainbowsix-api-node"
+    "url": "https://github.com/Julien-sans/rainbowsix-siege-api"
   },
   "dependencies": {
     "request": "^2.79.0"
