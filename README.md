@@ -1,5 +1,5 @@
 # rainbowsix-siege-api
-API for Rainbow Six Siege stats and player. Data extracted from r6stats.com
+Tool to read the r6stats API. For Rainbow Six Siege stats and player. Data extracted from r6stats.com
 
 Using Node.js, Express and user Id from r6stats.com
 
