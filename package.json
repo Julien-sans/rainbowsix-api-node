@@ -1,12 +1,12 @@
 {
   "name": "rainbowsix-siege-api",
-  "version": "1.0.0",
-  "description": "API Node.js for Rainbow Six Siege stats and player. Data extracted from r6stats.com",
+  "version": "1.0.2",
+  "description": "Tool to read r6stats API. Data extracted from r6stats.com",
   "main": "main.js",
   "author": "Julien-sans <julien.sans1@gmail.com>",
   "license": "MIT",
-  "homepage": "https://github.com/27therealone/rainbowsix-api-node",
-  "keywords": ["rainbowsix", "api", "rainbow", "rainbowsixsiege", "node-js", "async", "promise-api", "express"],
+  "homepage": "https://github.com/Julien-sans/rainbowsix-siege-api",
+  "keywords": ["rainbowsix", "api", "rainbow", "rainbowsixsiege", "rainbow six", "node-js", "async", "promise-api", "express"],
   "repository": {
     "type": "git",
     "url": "https://github.com/Julien-sans/rainbowsix-siege-api"
