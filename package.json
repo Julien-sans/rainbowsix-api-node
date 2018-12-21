@@ -1,6 +1,6 @@
 {
   "name": "rainbowsix-siege-api",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Tool to read r6stats API. Data extracted from r6stats.com",
   "main": "main.js",
   "author": "Julien-sans <julien.sans1@gmail.com>",
